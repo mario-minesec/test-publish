@@ -1,0 +1,312 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "HeadlessSDKWrapper",
+    "printedName": "HeadlessSDKWrapper",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HeadlessSDKWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Headless",
+        "printedName": "Headless",
+        "declKind": "Import",
+        "moduleName": "HeadlessSDKWrapper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HeadlessSDKWrapperService",
+        "printedName": "HeadlessSDKWrapperService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HeadlessSDKWrapperService",
+                "printedName": "HeadlessSDKWrapper.HeadlessSDKWrapperService",
+                "usr": "s:18HeadlessSDKWrapper0aB7ServiceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18HeadlessSDKWrapper0aB7ServiceCACycfc",
+            "mangledName": "$s18HeadlessSDKWrapper0aB7ServiceCACycfc",
+            "moduleName": "HeadlessSDKWrapper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initSoftPOS",
+            "printedName": "initSoftPOS(profileId:licenseFile:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<Headless.HeadlessInitSuccess, Headless.HeadlessError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HeadlessInitSuccess",
+                    "printedName": "Headless.HeadlessInitSuccess",
+                    "usr": "s:8Headless0A11InitSuccessV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HeadlessError",
+                    "printedName": "Headless.HeadlessError",
+                    "usr": "s:8Headless0A5ErrorO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18HeadlessSDKWrapper0aB7ServiceC11initSoftPOS9profileId11licenseFiles6ResultOy0A00A11InitSuccessVAI0A5ErrorOGSS_SStYaF",
+            "mangledName": "$s18HeadlessSDKWrapper0aB7ServiceC11initSoftPOS9profileId11licenseFiles6ResultOy0A00A11InitSuccessVAI0A5ErrorOGSS_SStYaF",
+            "moduleName": "HeadlessSDKWrapper",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launchTransaction",
+            "printedName": "launchTransaction(poi:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<Headless.TransactionResponse, Headless.HeadlessError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionResponse",
+                    "printedName": "Headless.TransactionResponse",
+                    "usr": "s:8Headless19TransactionResponseV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HeadlessError",
+                    "printedName": "Headless.HeadlessError",
+                    "usr": "s:8Headless0A5ErrorO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PoiRequest",
+                "printedName": "Headless.PoiRequest",
+                "usr": "s:8Headless10PoiRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18HeadlessSDKWrapper0aB7ServiceC17launchTransaction3pois6ResultOy0A00E8ResponseVAH0A5ErrorOGAH10PoiRequestV_tYaF",
+            "mangledName": "$s18HeadlessSDKWrapper0aB7ServiceC17launchTransaction3pois6ResultOy0A00E8ResponseVAH0A5ErrorOGAH10PoiRequestV_tYaF",
+            "moduleName": "HeadlessSDKWrapper",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "actionVoid",
+            "printedName": "actionVoid(tranId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<Headless.TransactionResponse, Headless.HeadlessError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionResponse",
+                    "printedName": "Headless.TransactionResponse",
+                    "usr": "s:8Headless19TransactionResponseV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HeadlessError",
+                    "printedName": "Headless.HeadlessError",
+                    "usr": "s:8Headless0A5ErrorO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18HeadlessSDKWrapper0aB7ServiceC10actionVoid6tranIds6ResultOy0A019TransactionResponseVAH0A5ErrorOGSS_tYaF",
+            "mangledName": "$s18HeadlessSDKWrapper0aB7ServiceC10actionVoid6tranIds6ResultOy0A019TransactionResponseVAH0A5ErrorOGSS_tYaF",
+            "moduleName": "HeadlessSDKWrapper",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "actionLinkedRefund",
+            "printedName": "actionLinkedRefund(tranId:amount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<Headless.TransactionResponse, Headless.HeadlessError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionResponse",
+                    "printedName": "Headless.TransactionResponse",
+                    "usr": "s:8Headless19TransactionResponseV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HeadlessError",
+                    "printedName": "Headless.HeadlessError",
+                    "usr": "s:8Headless0A5ErrorO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Headless.Amount?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Amount",
+                    "printedName": "Headless.Amount",
+                    "usr": "s:8Headless6AmountV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18HeadlessSDKWrapper0aB7ServiceC18actionLinkedRefund6tranId6amounts6ResultOy0A019TransactionResponseVAI0A5ErrorOGSS_AI6AmountVSgtYaF",
+            "mangledName": "$s18HeadlessSDKWrapper0aB7ServiceC18actionLinkedRefund6tranId6amounts6ResultOy0A019TransactionResponseVAI0A5ErrorOGSS_AI6AmountVSgtYaF",
+            "moduleName": "HeadlessSDKWrapper",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "actionQuery",
+            "printedName": "actionQuery(tranId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<Headless.TransactionResponse, Headless.HeadlessError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionResponse",
+                    "printedName": "Headless.TransactionResponse",
+                    "usr": "s:8Headless19TransactionResponseV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HeadlessError",
+                    "printedName": "Headless.HeadlessError",
+                    "usr": "s:8Headless0A5ErrorO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18HeadlessSDKWrapper0aB7ServiceC11actionQuery6tranIds6ResultOy0A019TransactionResponseVAH0A5ErrorOGSS_tYaF",
+            "mangledName": "$s18HeadlessSDKWrapper0aB7ServiceC11actionQuery6tranIds6ResultOy0A019TransactionResponseVAH0A5ErrorOGSS_tYaF",
+            "moduleName": "HeadlessSDKWrapper",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18HeadlessSDKWrapper0aB7ServiceC",
+        "mangledName": "$s18HeadlessSDKWrapper0aB7ServiceC",
+        "moduleName": "HeadlessSDKWrapper",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
