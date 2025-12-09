@@ -1,6 +1,0 @@
-framework module HeadlessSDKWrapper {
-  umbrella header "HeadlessSDKWrapper.h"
-  export *
-
-  module * { export * }
-}
